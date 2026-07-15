@@ -2,7 +2,7 @@
 
 ## Cluster Setup
 ```bash
-minikube start --nodes 2 --cpus 2 --memory 4096 --driver docker
+minikube start --nodes 2 --cpus 1 --memory 2048 --driver docker
 ```
 Erstellt zwei Docker-Container, die als Kubernetes-Nodes fungieren. Node 1 (minikube) ist Control Plane + Worker, Node 2 (minikube-m02) ist Worker.
 
