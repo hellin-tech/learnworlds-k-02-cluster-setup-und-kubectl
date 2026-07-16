@@ -23,7 +23,12 @@ Eine lokale Installation ist nicht notwendig.
 
 1. Öffne das Repository auf GitHub
 2. Klicke auf **Code** → **Codespaces** → **Create codespace on main**
-3. Die Entwicklungsumgebung wird automatisch vorbereitet. Der erste Start und das Einrichten des Kubernetes-Clusters können einige Minuten dauern.
+3. Die Entwicklungsumgebung mit Docker, kubectl, minikube und Helm
+wird automatisch vorbereitet.
+
+Öffne anschließend die Datei README.md und beginne mit
+`aufgaben/01_cluster_setup.sh`. Das erstmalige Starten des
+Kubernetes-Clusters kann einige Minuten dauern.
 
 
 ## Aufgaben
